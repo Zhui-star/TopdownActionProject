@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43fb7d0d19f40a459f8063e3c63d383, type: 3}
+  m_Name: BeginnerLevelGrowthConfigure
+  m_EditorClassIdentifier: 
+  LevelGrowthList:
+  - unitName: Level 2
+    Level: 2
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 3
+    Level: 3
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 4
+    Level: 4
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 5
+    Level: 5
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 6
+    Level: 6
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 7
+    Level: 7
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 8
+    Level: 8
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 9
+    Level: 9
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 10
+    Level: 10
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 11
+    Level: 11
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 12
+    Level: 12
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 13
+    Level: 13
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 14
+    Level: 14
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 15
+    Level: 15
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 16
+    Level: 16
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 17
+    Level: 17
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 18
+    Level: 18
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 19
+    Level: 19
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0
+  - unitName: Level 20
+    Level: 20
+    HP: 5
+    Attack: 5
+    Defence: 1
+    CritRank: 0
+    CritMultiple: 0
+    Dodge: 0
+    MoveSpeed: 0
+    AttackSpeed: 0

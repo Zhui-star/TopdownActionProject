@@ -1,0 +1,59 @@
+{
+  "infoList": [
+    {
+      "panelTypeString": "GameMenuePanel",
+      "path": "UIPanel/GameMenuePanel"
+    },
+    {
+      "panelTypeString": "CharacterSelectPanel",
+      "path": "UIPanel/CharacterSelectPanel"
+    },
+    {
+      "panelTypeString": "HTSkillSelectPanel",
+      "path": "UIPanel/HTSkillSelectPanel"
+    },
+    {
+      "panelTypeString": "SettingPanel",
+      "path": "UIPanel/SettingPanel"
+    },
+    {
+      "panelTypeString": "WeaponSwitchTipsPanel",
+      "path": "UIPanel/WeaponSwitchTipsPanel"
+    },
+    {
+      "panelTypeString": "GSEquipPanel",
+      "path": "UIPanel/GSEquipPanel"
+    },
+    {
+      "panelTypeString": "InventoryMenuePanel",
+      "path": "UIPanel/InventoryMenuePanel"
+    },
+    {
+      "panelTypeString": "TalentSystemPanel",
+      "path": "UIPanel/TalentSystemPanel"
+    },
+    {
+      "panelTypeString": "StoreMenuePanel",
+      "path": "UIPanel/StoreMenuePanel"
+    },
+    {
+      "panelTypeString":"GameOverPanel",
+      "path": "UIPanel/GameOverPanel"
+    },
+    {
+      "panelTypeString": "GamePausePanel",
+      "path": "UIPanel/GamePausePanel"
+    },
+    {
+      "panelTypeString": "TabStatePanel",
+      "path": "UIPanel/TabStatePanel"
+    },
+    {
+      "panelTypeString":"VictoryPanel",
+      "path":"UIPanel/VictoryPanel"
+    }
+
+
+    
+  ]
+}

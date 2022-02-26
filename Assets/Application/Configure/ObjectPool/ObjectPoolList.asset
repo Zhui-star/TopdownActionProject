@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3a9f589855f8a438ad9ea48e94dcba, type: 3}
+  m_Name: ObjectPoolList
+  m_EditorClassIdentifier: 
+  poolList:
+  - name: SpikeSkill
+    prefab: {fileID: 6426283681588670897, guid: 6ccac94b9c25c1a408c7a409bb4486ab,
+      type: 3}
+    maxAmount: 10
+  - name: SlashFireBird
+    prefab: {fileID: 5441640833577781158, guid: ecf328c2e68ff20409f552d5a19b2496,
+      type: 3}
+    maxAmount: 10
+  - name: RoundTheMoon
+    prefab: {fileID: 4118023103139037774, guid: 99c9b32ec9ab05649932be55b62b8a8c,
+      type: 3}
+    maxAmount: 10
+  - name: ShieldPunch
+    prefab: {fileID: 5825165696696325994, guid: cd95cddf7945a3b4598026d5df36107f,
+      type: 3}
+    maxAmount: 10
+  - name: Slash
+    prefab: {fileID: 662993754252121306, guid: 25fc3be213582cb4880338fcc4df5280, type: 3}
+    maxAmount: 10
+  - name: ThornAura
+    prefab: {fileID: 145414715285461723, guid: c4f03a888ee7f8846b9bd7911fb252df, type: 3}
+    maxAmount: 10
+  - name: SpearRainUp
+    prefab: {fileID: 8174658322705621072, guid: fe4d16b41d59ab046b7b0c6f846b0d3b,
+      type: 3}
+    maxAmount: 10
+  - name: SpearRainDown
+    prefab: {fileID: 5218041555473837210, guid: d40fc5245d2a56145b8dad4b221e9fac,
+      type: 3}
+    maxAmount: 10
+  - name: FireBall
+    prefab: {fileID: 5069871991402030874, guid: f2e53400137015245b9a65d8a49f9cf0,
+      type: 3}
+    maxAmount: 10
+  - name: FireBallExplosion
+    prefab: {fileID: 3701774773708720867, guid: 4c1af2feedf7d9c4294aee00d2f387f3,
+      type: 3}
+    maxAmount: 10
+  - name: AttackSpeedBuff
+    prefab: {fileID: 8679593273811733220, guid: 9fb3fc9195b0cbf42bae53e579330147,
+      type: 3}
+    maxAmount: 10
+  - name: CloudBow
+    prefab: {fileID: 3438023851123691242, guid: 101a515c413649f4f89db698cdd2f6ac,
+      type: 3}
+    maxAmount: 10
+  - name: LightningBall
+    prefab: {fileID: 731410312669111757, guid: 9a48b3f8c4dcc7f40a7f795b5aa8fb15, type: 3}
+    maxAmount: 10
+  - name: Beam
+    prefab: {fileID: 1858780867827556030, guid: 60b5eb847a1c5fc44b0c3f1b3c8be47c,
+      type: 3}
+    maxAmount: 10
+  - name: SpeedSlash
+    prefab: {fileID: 6705462999007342194, guid: 410b667c2fa831840bcf491cebc2895f,
+      type: 3}
+    maxAmount: 10
+  - name: BeforeCounterAttack
+    prefab: {fileID: 2232495012538795343, guid: cf22b5868a7497047b9cbf2b97f41557,
+      type: 3}
+    maxAmount: 10
+  - name: CounterAttack
+    prefab: {fileID: 6698545825752352029, guid: 084d49a37c3f8f74984c1622f91d5892,
+      type: 3}
+    maxAmount: 10
+  - name: IceFreezeSkill
+    prefab: {fileID: 4735985560280044819, guid: 56b0b4693e53378428b814687774e282,
+      type: 3}
+    maxAmount: 10
+  - name: BlackHoleSkill
+    prefab: {fileID: 8516601322316925177, guid: 3cc9b3caaa1077d41b6f433dac572abb,
+      type: 3}
+    maxAmount: 10
+  - name: CrazyStormSkill
+    prefab: {fileID: 3782300138836401945, guid: a7f71401f440c1a4dad74bd991b93334,
+      type: 3}
+    maxAmount: 10
+  - name: CrazyDropDwonSkill
+    prefab: {fileID: 3397291358612890666, guid: 70e529fb063871644b6725abf15df9dc,
+      type: 3}
+    maxAmount: 10
+  - name: MonsterCall
+    prefab: {fileID: 2479470150356173827, guid: e74c365a53827544d8818928b4feff41,
+      type: 3}
+    maxAmount: 10
+  - name: MonsterCallSkill
+    prefab: {fileID: 3143030695586153205, guid: 2e52a1d210b27834790cd18a2f255b38,
+      type: 3}
+    maxAmount: 10
+  - name: ElementMonsterCall
+    prefab: {fileID: 8162410452217490586, guid: e8c1fb7d09ce55b44bb4de760660351f,
+      type: 3}
+    maxAmount: 10
+  - name: ElementCallSkill
+    prefab: {fileID: 44909983885374101, guid: d3ff9b496218b9d44838c1adbe79ba19, type: 3}
+    maxAmount: 10
+  - name: ConcentrateSkill
+    prefab: {fileID: 539806270246373599, guid: 2357583552177cf4fbf2c98feb5efb4e, type: 3}
+    maxAmount: 10
+  - name: WindBreakingArrowSkill
+    prefab: {fileID: 8592404937626762460, guid: 94f73baf57982b44cbc17d2e33a4be9c,
+      type: 3}
+    maxAmount: 10
+  - name: BreakFlawSkill
+    prefab: {fileID: 3995670874510996443, guid: c93b4dab80078ce41836ce9809aa2493,
+      type: 3}
+    maxAmount: 10
+  - name: HealingMagicSkill
+    prefab: {fileID: 219575395346659428, guid: b0613ff1bbc43a142a0c8de2c30fbcce, type: 3}
+    maxAmount: 10
+  - name: DeadlyShootSkill
+    prefab: {fileID: 8922405809542543137, guid: 23342762555f4c243b52bcabc50da6c5,
+      type: 3}
+    maxAmount: 10
+  - name: ArcherAttackEffect
+    prefab: {fileID: 3848535645160611919, guid: 98a66106aef76284eadc321f3cc8582d,
+      type: 3}
+    maxAmount: 10
+  - name: GolemSkill01
+    prefab: {fileID: 1889538670312145827, guid: 677baa095d33911459f61238fab6fff6,
+      type: 3}
+    maxAmount: 10
+  - name: GolemSkill01SkillRange
+    prefab: {fileID: 8071173194139786789, guid: e3f57eac4b7bc6a4aadc66636eb9aa43,
+      type: 3}
+    maxAmount: 10
+  - name: GolemSkill02
+    prefab: {fileID: 2974154887575837435, guid: d37db627c9b67344c810c36e5086494f,
+      type: 3}
+    maxAmount: 10
+  - name: GolemSkill02SkillRange
+    prefab: {fileID: 1259746315879534568, guid: 4575c6e68446b644d96fbcacb2a8dbaa,
+      type: 3}
+    maxAmount: 10
+  - name: GolemSkill03SkillRange
+    prefab: {fileID: 1322140621505338953, guid: 11d08d3e371e0024caa3d400d7709bb6,
+      type: 3}
+    maxAmount: 10
+  - name: GolemSkill03
+    prefab: {fileID: 5611470999534231245, guid: b5cde6fdbc056c348b63f1ae4377aed7,
+      type: 3}
+    maxAmount: 10
+  - name: TurtleShellAttack
+    prefab: {fileID: 3977952604376751075, guid: d05037d326b173741a30f5ed4a12dcde,
+      type: 3}
+    maxAmount: 20
+  - name: Shield3Launch
+    prefab: {fileID: 3529501447343082094, guid: fcffe0255cc4b4f41a4c537c4ab9df54,
+      type: 3}
+    maxAmount: 10
+  - name: ExperienceItem
+    prefab: {fileID: 8540175615338182604, guid: 4fbcfd449152e414bb07ae0727d2c59a,
+      type: 3}
+    maxAmount: 20
+  - name: CloudArrowCastEffect
+    prefab: {fileID: 6604605844278039598, guid: 00ed20029d0d1824498e9ed0ae13814a,
+      type: 3}
+    maxAmount: 20
+  - name: TurtleBeforeAttackEffect
+    prefab: {fileID: 5619106845263166917, guid: cbc2730b70d341b4289f2674ec33e796,
+      type: 3}
+    maxAmount: 20
+  - name: SlimeBeam
+    prefab: {fileID: 3008030536468591388, guid: 6134dd7f46b83ff4b9a5374a2c9717e3,
+      type: 3}
+    maxAmount: 20
+  - name: ShieldExposion
+    prefab: {fileID: 8381302717423128167, guid: 9e86b2576407fcd488fa87089a81ea1a,
+      type: 3}
+    maxAmount: 10
+  - name: IceRainArrow
+    prefab: {fileID: 5629638235282667020, guid: 5f1c36959244f9643861531817851d2d,
+      type: 3}
+    maxAmount: 10
+  - name: Meteorite
+    prefab: {fileID: 5378184296883694605, guid: 0421a9091882edd4895a2ca88106eff9,
+      type: 3}
+    maxAmount: 10
+  - name: MeteoriteExplosion
+    prefab: {fileID: 4729410401586728466, guid: ca7cffec3689b994d914e564a7e1020c,
+      type: 3}
+    maxAmount: 10
+  - name: GroundQuake
+    prefab: {fileID: 3533387842390897733, guid: e9d4f29c74e9f8742aac8af16d60c166,
+      type: 3}
+    maxAmount: 10
+  - name: QuakeCrevice
+    prefab: {fileID: 1508006755909650372, guid: 8633d18110718ce489136e86d98b45c7,
+      type: 3}
+    maxAmount: 10
+  - name: GhostShadowItem
+    prefab: {fileID: 4851237204765241495, guid: f9c252d661343d54dba3b98b8c335f2e,
+      type: 3}
+    maxAmount: 10
+  - name: IceArrowSubExplosion
+    prefab: {fileID: 8647524659141264401, guid: 5e20fbf039f1f4f8da4d73fc723dc7c5,
+      type: 3}
+    maxAmount: 10
+  - name: Trap
+    prefab: {fileID: 7607995994189330867, guid: d1c201c89495d0049b8b494771ca960e,
+      type: 3}
+    maxAmount: 10
+  - name: TrapExplosion
+    prefab: {fileID: 6783598686231894639, guid: 86fd663c0c601724b98afe8f2b25b05f,
+      type: 3}
+    maxAmount: 10
+  - name: Orcspin
+    prefab: {fileID: 7693486350497745003, guid: 5a8cf4a53a3d67a4b8a195341cc81bec,
+      type: 3}
+    maxAmount: 10
+  - name: MonsterPlantSkill
+    prefab: {fileID: 6124420164623579080, guid: 669643f1dfe0d7a498f32f79e14657b8,
+      type: 3}
+    maxAmount: 10
+  - name: MonsterPlantSkillHit
+    prefab: {fileID: 6174348791527164731, guid: 5d7117e9bc462164cb36463612295b5c,
+      type: 3}
+    maxAmount: 10
+  - name: CactusExplodin
+    prefab: {fileID: 6914846719598118362, guid: 06f994ee9a35cf14bae28f87a18b9d8b,
+      type: 3}
+    maxAmount: 10
+  - name: PenSpBuff
+    prefab: {fileID: 5460255481384685833, guid: 7d78b08f7389a1743bf2024750186909,
+      type: 3}
+    maxAmount: 10
+  - name: StateActivated
+    prefab: {fileID: 1856330415134781878, guid: db15e15ff829cdd4399e91846fdfd8de,
+      type: 3}
+    maxAmount: 10
+  - name: GolemSkill03_2
+    prefab: {fileID: 7036201622905222894, guid: c09ffa64bf3a5684c84cf009cafb1ee5,
+      type: 3}
+    maxAmount: 10
+  - name: StoneCollideParticle
+    prefab: {fileID: 8386630963865333146, guid: 017d8ec5a8a40944595107dfd60987ec,
+      type: 3}
+    maxAmount: 10
+  - name: TigerSkill00_Collider
+    prefab: {fileID: 444666331125364144, guid: 201f23a7d0cc6394395f9a94551d0ecb, type: 3}
+    maxAmount: 10
+  - name: TigerSkill00
+    prefab: {fileID: 3662653222217820173, guid: 1246f8d2945110541835e2777da5905c,
+      type: 3}
+    maxAmount: 10
+  - name: TigerSkill01
+    prefab: {fileID: 1318282992677473647, guid: 4e55d63d04f28bd499ad6fc9c56d07e8,
+      type: 3}
+    maxAmount: 10
+  - name: TigerSkill02
+    prefab: {fileID: 2265291534422089817, guid: 59135085123894845bb6c261d2b135e5,
+      type: 3}
+    maxAmount: 10
+  - name: HpSugarItem
+    prefab: {fileID: 1700103522038625456, guid: 33ff4f71e9808de408647c44f22725d5,
+      type: 3}
+    maxAmount: 20
+  - name: SpiderSkill01
+    prefab: {fileID: 4830683641836932611, guid: 3238db9107f97724685df7c499be6012,
+      type: 3}
+    maxAmount: 20
+  - name: SpiderSkill02
+    prefab: {fileID: 736627570486420366, guid: 7e05a49f53889854baed147814661013, type: 3}
+    maxAmount: 20
+  - name: SpiderSkill03
+    prefab: {fileID: 6412440752779192969, guid: 507c7179e1bbc09459178889926cca30,
+      type: 3}
+    maxAmount: 20
+  - name: Spider_Skill1_Explosion
+    prefab: {fileID: 2959987006903356529, guid: 7a1b020bbe18db343b2a31c750460c8e,
+      type: 3}
+    maxAmount: 20
+  - name: Spider_Skill2
+    prefab: {fileID: 6626889166603298422, guid: e83867073a6f9914c82d1371d8a75a26,
+      type: 3}
+    maxAmount: 20
+  - name: Spider_Skill3_CastEffect
+    prefab: {fileID: 1368291934118952305, guid: dcc596e0e61185841870caea6bb5481c,
+      type: 3}
+    maxAmount: 20
+  - name: DropDownExplosion
+    prefab: {fileID: 5015747293147680295, guid: 50706a269fda4724baa6d06eb0157804,
+      type: 3}
+    maxAmount: 20
+  - name: GreatSwordPassiveSkill
+    prefab: {fileID: 2617229691054524473, guid: 4f0f37206a9577641b0b662ece272ffa,
+      type: 3}
+    maxAmount: 20
+  - name: GhostSlash
+    prefab: {fileID: 4002681226708081622, guid: 7083170a191cbcc4d814413ed7744082,
+      type: 3}
+    maxAmount: 20
+  - name: GhostSlashExplosion
+    prefab: {fileID: 4939054235307828309, guid: d06a094676e815b47a8e51c6925e6d62,
+      type: 3}
+    maxAmount: 20
+  - name: Eff11_Energy
+    prefab: {fileID: 4879189961503571286, guid: 80a254ce981450243b3315f87c6dea34,
+      type: 3}
+    maxAmount: 20
+  - name: GreatSwordTornado
+    prefab: {fileID: 8535720602990828292, guid: fba86450a68b7924c845040d754843f4,
+      type: 3}
+    maxAmount: 20
+  - name: SoldierSkill
+    prefab: {fileID: 1493796705214623295, guid: f2de05d49f9fb364bbd35731d7e530db,
+      type: 3}
+    maxAmount: 20
+  - name: SolderCall
+    prefab: {fileID: 2852571009455861579, guid: 0f3c01a64f2cd634582c69f904856e26,
+      type: 3}
+    maxAmount: 20
+  - name: Cannonball
+    prefab: {fileID: 3583644018092631830, guid: 6d1e252ca12b015489fcd925fc1d2aaa,
+      type: 3}
+    maxAmount: 20
+  - name: ArtilleryAttack
+    prefab: {fileID: 4236954240803505868, guid: 66daca0895451d947a98a0668f980672,
+      type: 3}
+    maxAmount: 20
+  - name: Hit 7
+    prefab: {fileID: 7420627783949629276, guid: 5af0559c79fb24d45939089aa32ffde1,
+      type: 3}
+    maxAmount: 20
+  - name: GodGolemAttack1
+    prefab: {fileID: 6654190592821584171, guid: f387d6e149d6c35448805387ad15d0e6,
+      type: 3}
+    maxAmount: 20
+  - name: GodGolemAttack2
+    prefab: {fileID: 9139476430332014278, guid: dd0de664d0fef284e8621604e9e52873,
+      type: 3}
+    maxAmount: 20
+  - name: GodGolemAttack3
+    prefab: {fileID: 8247424215017915313, guid: 2ec0df252ad97a449aabbba75608cb68,
+      type: 3}
+    maxAmount: 20
+  - name: GodGolem
+    prefab: {fileID: 683601590271285516, guid: 0f80fd95fce5f8e48b6d6025e24d8e63, type: 3}
+    maxAmount: 20
+  - name: ArcherAttackEffect01
+    prefab: {fileID: 3848535645160611919, guid: 2ae993bf7602c95499b578ab8c4fb33e,
+      type: 3}
+    maxAmount: 20
+  - name: CastArrowEffect
+    prefab: {fileID: 698145149935064364, guid: 81a80c4b3f05d1f45a41fe60dc9bcdfd, type: 3}
+    maxAmount: 20
+  - name: DeadlyShootColliderFeedBack
+    prefab: {fileID: 4841471102471303633, guid: 8dc35b2a05cfcc149b7faa179d631c05,
+      type: 3}
+    maxAmount: 20
+  - name: CastDeadlyShoot
+    prefab: {fileID: 1979616631701294063, guid: f03e406e57e3fb2468d713b71bee396d,
+      type: 3}
+    maxAmount: 20
+  - name: MarkArrow
+    prefab: {fileID: 4759508937899887016, guid: 5f31c8d90fa927e4f882015273ae99c9,
+      type: 3}
+    maxAmount: 20
+  - name: CastMarkArrow
+    prefab: {fileID: 4462068225385030562, guid: 324de23782c268043a53ea32e414f392,
+      type: 3}
+    maxAmount: 20
+  - name: ExplosionNovaGreen
+    prefab: {fileID: 2450669508381435998, guid: e8c72a2f47f27ea4ca57236137299824,
+      type: 3}
+    maxAmount: 20
+  - name: ElementMagePassiveSkill
+    prefab: {fileID: 7044743479467990192, guid: 3c28828376075f344ac5753c4ff8a0b1,
+      type: 3}
+    maxAmount: 20
+  - name: CastBlackHoleSkill
+    prefab: {fileID: 7580095709710424613, guid: aa5bf43f192506c47928397663c37c4c,
+      type: 3}
+    maxAmount: 20
+  - name: BlackHoleExplosion
+    prefab: {fileID: 1837082275811340887, guid: 364cb0d046b88fa4cb81e62096828bb5,
+      type: 3}
+    maxAmount: 20
+  - name: ProtonMissle
+    prefab: {fileID: 1587736693421186723, guid: 027c5a4286c28384da7017fae400bda3,
+      type: 3}
+    maxAmount: 20
+  - name: ProtonExplosion
+    prefab: {fileID: 4673457499348109872, guid: d1ece733a1adea343b83ef487dc77a27,
+      type: 3}
+    maxAmount: 20
+  - name: SummonerPassiveSkill
+    prefab: {fileID: 830253103270037465, guid: 8a5ed922b5085cf47abcda0b6452c675, type: 3}
+    maxAmount: 20
+  - name: MutipleDragonFireBall
+    prefab: {fileID: 4564156729805443743, guid: 501aa75766b7eda4a81c4c28131f5ae3,
+      type: 3}
+    maxAmount: 20
+  - name: DragonFireBallExplosion
+    prefab: {fileID: 7592137791967585102, guid: a82145c2042d33d4bb065fb31d569417,
+      type: 3}
+    maxAmount: 20
+  - name: CrabMonsterSkill
+    prefab: {fileID: 6804921124604049653, guid: 65da9ab18ff39c442898e32524750c8e,
+      type: 3}
+    maxAmount: 20
+  - name: Hit 4
+    prefab: {fileID: 84266189961828675, guid: a75d809ca7d61c44bbc1d5e0398c7d0c, type: 3}
+    maxAmount: 20
+  - name: Hit 5
+    prefab: {fileID: 4983817478284491217, guid: 75aa81f0a804b3743ab6129d85525983,
+      type: 3}
+    maxAmount: 20
+  - name: PlasmaExplosionPurple
+    prefab: {fileID: 7044027996787304428, guid: 846a28d59555bdf468bfe6ee5e635c13,
+      type: 3}
+    maxAmount: 20
+  - name: SmokeClouds
+    prefab: {fileID: 7984860535105330885, guid: cbc7d9d6ef44d4648bb61f44283c08c4,
+      type: 3}
+    maxAmount: 20
+  - name: TalentAwardChest
+    prefab: {fileID: 2309260525227902265, guid: 2c58af9cc68870e4f9a10a5b7ebc416a,
+      type: 3}
+    maxAmount: 10
+  - name: TalentNotChoose
+    prefab: {fileID: 1334071670866236, guid: edf12e91890b8434eb8ea701f9bc40a2, type: 3}
+    maxAmount: 10
+  - name: TalentChoose
+    prefab: {fileID: 1497030318103322, guid: 3313c584bfb0ca54584fe5b29871dfc2, type: 3}
+    maxAmount: 10
+  - name: Coin
+    prefab: {fileID: 2483610034176705397, guid: bca89e0e322efa2429e13e4e2d9ad470,
+      type: 3}
+    maxAmount: 10
+  - name: EquipmentActivated
+    prefab: {fileID: 4158621079668522512, guid: 72d2eb498c9c59a428a815881e55fdbd,
+      type: 3}
+    maxAmount: 10
+  - name: MarkManAttackEffect
+    prefab: {fileID: 3848535645160611919, guid: 0baa504607b459444be90de29fee7983,
+      type: 3}
+    maxAmount: 10
+  - name: TurtleShellBloodSplatCritical
+    prefab: {fileID: 1049049188377839824, guid: 71bad17c7a23da5468cbcb30068f890e,
+      type: 3}
+    maxAmount: 10
+  - name: SlimeBloodSplatCritical
+    prefab: {fileID: 1202026202289110298, guid: 46cb8a323978e1e4a9ee176ca7322f3a,
+      type: 3}
+    maxAmount: 10
+  - name: OrcBloodSplatCritical
+    prefab: {fileID: 2821412054602300141, guid: 83a4760ac4ef87b44a0b86e576e92539,
+      type: 3}
+    maxAmount: 10
+  - name: MonsterPlantBloodSplatCritical
+    prefab: {fileID: 7295681395321013671, guid: 16d9eb2ffc0f0c547be658995a1f2604,
+      type: 3}
+    maxAmount: 10
+  - name: SpiderBloodSplatCritical
+    prefab: {fileID: 4953914951879346014, guid: 893593aa76edf0b488ae0662a65b1876,
+      type: 3}
+    maxAmount: 10
+  - name: GolemDamageParticle
+    prefab: {fileID: 9082949498785394457, guid: 2a17fc8b47f2d884488db4ed1b710f39,
+      type: 3}
+    maxAmount: 10
+  - name: CastBeam
+    prefab: {fileID: 5707636371882369253, guid: 17c3ed7be21feb74c9a0d187f1bb5f29,
+      type: 3}
+    maxAmount: 10
+  - name: DemonCatch
+    prefab: {fileID: 421013342645564317, guid: eaa273440cf30094da3b597c6b56b800, type: 3}
+    maxAmount: 10
+  - name: DemonLaser
+    prefab: {fileID: 5258848860020076940, guid: d05cf27ff9168da46b8a5974a888aef1,
+      type: 3}
+    maxAmount: 10
+  - name: DemonDash
+    prefab: {fileID: 8591857140823078703, guid: a9408ee3e0b323047839fe71140d144c,
+      type: 3}
+    maxAmount: 10
+  - name: CastDemonDash
+    prefab: {fileID: 3752223151210723490, guid: 00af27e08f733a74c8a6c985ecbc0f01,
+      type: 3}
+    maxAmount: 10
+  - name: DemonBoomExplosion
+    prefab: {fileID: 1674435283913614278, guid: b8af74622ead9ee428608be021a38eb7,
+      type: 3}
+    maxAmount: 10
+  - name: DemonBoomMark
+    prefab: {fileID: 4780963454938870096, guid: 6608aabc78a3e30488363809e7fb0383,
+      type: 3}
+    maxAmount: 10
+  - name: DemonBoom
+    prefab: {fileID: 5927628664200020927, guid: d121f9e1ed95b3648943140333693db6,
+      type: 3}
+    maxAmount: 10
+  - name: DemonBloodCritical
+    prefab: {fileID: 7659240587194695468, guid: 99bedad3107d55f4182aa162bbc8319e,
+      type: 3}
+    maxAmount: 10

@@ -1,0 +1,2788 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92a4496c413e1e4fa555b609203a5dc, type: 3}
+  m_Name: SkillUnitList
+  m_EditorClassIdentifier: 
+  skillList:
+  - skillName: "\u7A81\u523A"
+    skillID: 1
+    skillDescription: "\u89D2\u8272\u5411\u524D\u65B9\u51B2\u523A\u4E00\u6BB5\u8DDD\u79BB\uFF0C\u5BF9\u6CBF\u9014\u7684\u654C\u4EBA\u9020\u6210\u4F24\u5BB3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 26c4afc91c9fedf458ed7780695bd61e, type: 3}
+    animationName: SkillReleaseV1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 3
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 83610f2bbf2c6438ab62e93b7032179c, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SpikeSkill
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 0.5
+    changePosition: 1
+    changeValue: 80
+    changeTimer: 0.5
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 3
+    JumpZSpeed: 100
+    JumpTime: 0.8
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5251\u5203\u65A9"
+    skillID: 2
+    skillDescription: "\u5411\u524D\u65B9\u65A9\u51FA\u4E00\u9053\u8F83\u5BBD\u7684\u6C14\u5203\uFF0C\u5BF9\u63A5\u89E6\u5230\u7684\u654C\u4EBA\u9020\u6210\u4F24\u5BB3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 0
+    skillIcon: {fileID: 21300000, guid: 706168558e190d640b1ec9ce3329e4bf, type: 3}
+    animationName: SkillReleaseV2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 4
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 0b227d82dfc6e4cff898b9ca0401cd25, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SlashFireBird
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.2
+    skillTime: 0.7
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.5
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u73AF\u6708"
+    skillID: 3
+    skillDescription: "\u4EE5\u81EA\u8EAB\u4E3A\u4E2D\u5FC3\u8FDB\u884C\u65CB\u8F6C\u653B\u51FB\uFF0C\u9020\u6210\u4F24\u5BB3\u5E76\u51FB\u9000\u654C\u4EBA"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: ed59cecdf8d43414d9388c823b671967, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 6
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: fd26afdba879e466da07ee6dfebd715b, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: RoundTheMoon
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.52
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.5
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u76FE\u7A81"
+    skillID: 4
+    skillDescription: "\u5411\u524D\u65B9\u51B2\u523A\u4E00\u6BB5\u8DDD\u79BB\uFF0C\u5E76\u4E14\u51FB\u6655\u524D\u65B9\u654C\u4EBA"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: ead62d0ad2e453f42a52091dc3e639fc, type: 3}
+    animationName: SkillReleaseV5
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 8
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 9471abba90eb186458a76ceb260744c2, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: ShieldPunch
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.15
+    skillTime: 0.4
+    changePosition: 1
+    changeValue: 30
+    changeTimer: 0.25
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 10496
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u7BAD\u96E8"
+    skillID: 7
+    skillDescription: "\u5411\u5929\u7A7A\u91CA\u653E\u591A\u53EA\u5F13\u7BAD\uFF0C\u5BF9\u5730\u9762\u7684\u654C\u4EBA\u9020\u6210\u591A\u6BB5\u4F24\u5BB3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 1
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 173b40c7ac4cf1740a9676d42f134f71, type: 3}
+    animationName: SkillReleaseV1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 8
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 8300000, guid: 3a7e9faa9dbcba041b6a3bf959deeee9, type: 3}
+    soundEffect: {fileID: 8300000, guid: 1930752a625537949be4d83b0fdc2d96, type: 3}
+    castEffect: SpearRainUp
+    castTime: 0.3
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SpearRainDown
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.3
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u7206\u70B8\u706B\u7403"
+    skillID: 8
+    skillDescription: " \u91CA\u653E\u4E00\u9897\u98DE\u884C\u706B\u7403\uFF0C\u5728\u63A5\u89E6\u5230\u7269\u4F53\u65F6\u53D1\u751F\u7206\u70B8"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 249dfc26dbcd7a049b6f092434092f1d, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 7
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 3390908d7a153e84ba89052e67534dfe, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: FireBall
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.5
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u75BE\u98CE\u5370\u8BB0"
+    skillID: 9
+    skillDescription: "\u77ED\u6682\u7684\u63D0\u9AD8\u81EA\u8EAB\u653B\u901F"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: f805132d9a9031248b4c2a1b848f65e1, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 11
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 6134e2d6d5ea46c45b468f24105a8f13, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: AttackSpeedBuff
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.3
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u7A7F\u4E91\u7BAD"
+    skillID: 10
+    skillDescription: " \u5411\u524D\u65B9\u5C04\u51FA\u4E00\u4E2A\u7A7F\u8D8A\u7269\u4F53\u7684\u5DE8\u7BAD\uFF0C\u5E76\u5BF9\u81EA\u8EAB\u9020\u6210\u51FB\u9000"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 0
+    skillIcon: {fileID: 21300000, guid: d8c58ba160f451f44b4288e0c8d7ec83, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 1
+    cooldown: 8
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 4da9cbe65a86b6747964d912aa2e2aac, type: 3}
+    castEffect: CloudArrowCastEffect
+    castTime: 0.2
+    CastEffctOffset: {x: 0, y: 2, z: 5}
+    skillPrefab: CloudBow
+    skillPositionOffset: {x: 0, y: 0, z: 20}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 0.5
+    changePosition: 1
+    changeValue: -20
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u95EA\u7535\u7403"
+    skillID: 11
+    skillDescription: "\u53EC\u5524\u73AF\u7ED5\u81EA\u8EAB\u7684\u4E09\u9897\u96F7\u7535\u53D1\u7403\uFF0C\u5BF9\u63A5\u89E6\u7684\u654C\u4EBA\u9020\u6210\u4F24\u5BB3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: 0d02da847ab5c5f4b8332b0fb4f261d4, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 18
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 5fe13d4e1997e2a4bbf31fb15407519d, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: LightningBall
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.3
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u9B54\u6CD5\u5149\u7EBF"
+    skillID: 12
+    skillDescription: "\u77ED\u6682\u65BD\u6CD5\u8FC7\u540E\uFF0C\u9762\u524D\u5F62\u6210\u4E00\u4E2A\u5DE8\u5927\u5149\u675F\u5BF9\u547D\u4E2D\u7684\u654C\u4EBA\u9020\u6210\u5DE8\u989D\u4F24\u5BB3\u5E76\u51CF\u901F"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 6013f99a51d92b44f849fe3977e4c2c3, type: 3}
+    animationName: SkillReleaseV2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 9
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 7257b5a1b38727b4ab9a02570d68e7cd, type: 3}
+    castEffect: CastBeam
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 8, z: 7}
+    skillPrefab: Beam
+    skillPositionOffset: {x: 0, y: 5, z: 65}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.932
+    skillTime: 0.7
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u9B3C\u65A9"
+    skillID: 13
+    skillDescription: "\u5411\u524D\u65B9\u51B2\u523A\u4E4B\u540E\u5C06\u4F1A\u5316\u6210\u591A\u6BB5\u65A9\u51FB\uFF0C\u5BF9\u654C\u4EBA\u9020\u6210\u591A\u6BB5\u4F24\u5BB3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 3722947264e61aa468954e3e91ac7e69, type: 3}
+    animationName: SkillReleaseV1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 15
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GhostSlash
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 3.5
+    changePosition: 1
+    changeValue: 50
+    changeTimer: 0.2
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u9632\u5FA1\u53CD\u51FB"
+    skillID: 14
+    skillDescription: "\u5C06\u8FDB\u5165\u4E00\u6BB5\u65F6\u95F4\u65E0\u654C\uFF0C\u65E0\u654C\u4E4B\u540E\u5C06\u91CA\u653E\u5DE8\u5927\u76FE\u724C\u5BF9\u63A5\u89E6\u7684\u654C\u4EBA\u9020\u6210\u7729\u6655"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 2cc96f1bb1f3a7b408dd52372b8a5ac4, type: 3}
+    animationName: SkillReleaseV1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 10
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: BeforeCounterAttack
+    castTime: 0.18
+    CastEffctOffset: {x: 0, y: 2, z: 8}
+    skillPrefab: CounterAttack
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 2
+    skillDelay: 0
+    skillTime: 0.2
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u51B0\u51BB\u672F"
+    skillID: 15
+    skillDescription: "\u5FEB\u901F\u5728\u81EA\u8EAB\u5468\u56F4\u53EC\u5524\u51FA\u51B0\u573A\uFF0C\u51BB\u4F4F\u51B0\u573A\u4E2D\u7684\u654C\u4EBA"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: ecc59e856c8ef754c951610b7d847729, type: 3}
+    animationName: SkillReleaseV4
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 10
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: aa7f47130afcc8646a17f66a608e0d94, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: -3, z: 0}
+    skillPrefab: IceFreezeSkill
+    skillPositionOffset: {x: 0, y: -2, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.15
+    skillTime: 0.15
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u9ED1\u6D1E"
+    skillID: 16
+    skillDescription: "\u5411\u524D\u65B9\u91CA\u653E\u4E00\u9897\u5F15\u529B\u9ED1\u6D1E\uFF0C\u9ED1\u6D1E\u5468\u56F4\u7269\u4F53\u5C06\u88AB\u5438\u5F15"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 89e90d1847d8bd042adcde1edc98a317, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 10
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 10}
+    skillPrefab: BlackHoleSkill
+    skillPositionOffset: {x: 0, y: 0, z: 5}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.33
+    skillTime: 0.1
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u72C2\u6012\u65CB\u98CE"
+    skillID: 17
+    skillDescription: "\u72C2\u6218\u58EB\u4EE5\u81EA\u8EAB\u8FDB\u884C\u65CB\u8F6C\u653B\u51FB\uFF0C\u5BF9\u63A5\u89E6\u5230\u654C\u4EBA\u9020\u6210\u4F24\u5BB3\uFF0C\u6301\u7EED5\u79D2"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: 693e87ba899f35e4d9463311a38f22f1, type: 3}
+    animationName: SkillReleaseV4
+    IsLoop: 1
+    permitDash: 0
+    cooldown: 10
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: CrazyStormSkill
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 5
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u72C2\u6218\u9668\u51FB"
+    skillID: 18
+    skillDescription: "\u72C2\u6218\u58EB\u5411\u524D\u65B9\u8DF3\u8D77\u5E76\u8FDB\u884C\u7838\u5730\u653B\u51FB\uFF0C\u843D\u5730\u5904\u9020\u6210\u9AD8\u989D\u8303\u56F4\u4F24\u5BB3\uFF0C\u5141\u8BB8\u89E6\u53D1\u66B4\u51FB"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: de67c13d900a22e4d91e58ef603a8cd2, type: 3}
+    animationName: SkillReleaseV6
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 6
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: CrazyDropDwonSkill
+    skillPositionOffset: {x: 0, y: -2, z: 1.5}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 1
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 1
+    JumpForce: 4
+    JumpZSpeed: 70
+    JumpTime: 0.9
+    StartFrezzeAnim: 0.11
+    FrezzeAnimDuration: 0.3
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u602A\u7269\u53EC\u5524"
+    skillID: 19
+    skillDescription: " \u53EC\u5524\u4E00\u4E2A\u575A\u5982\u78D0\u77F3\u7684\u4F19\u4F34\uFF0C\u80FD\u4E3B\u52A8\u5632\u8BBD\u4F4F\u5468\u56F4\u654C\u4EBA"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 462dacd452830624cab60c94d7ccdd4d, type: 3}
+    animationName: SkillReleaseV2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 10
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 62425871516586348b2174745de6f7c7, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: MonsterCallSkill
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.7
+    skillTime: 0.97
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5143\u7D20\u53EC\u5524"
+    skillID: 20
+    skillDescription: "\u53EC\u5524\u4E00\u4E2A\u706B\u9F99\uFF0C\u5177\u6709\u6781\u9AD8\u7684\u4F24\u5BB3\u8F93\u51FA\u80FD\u529B"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: e6c25d21d24678d44a1f058d96278d38, type: 3}
+    animationName: SkillReleaseV2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 10
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 62425871516586348b2174745de6f7c7, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: ElementCallSkill
+    skillPositionOffset: {x: 0, y: -1.5, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.7
+    skillTime: 0.97
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u96C6\u4E2D"
+    skillID: 21
+    skillDescription: " \u518D\u6B21\u5927\u5E45\u5EA6\u66FF\u8EAB\u81EA\u8EAB\u653B\u901F"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: d141aa700dc92a641b218037f513e293, type: 3}
+    animationName: SkillReleaseV1
+    IsLoop: 0
+    permitDash: 1
+    cooldown: 11
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 6134e2d6d5ea46c45b468f24105a8f13, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: ConcentrateSkill
+    skillPositionOffset: {x: 0, y: -3.5, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.4
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u7834\u98CE\u72D9\u51FB\u7BAD"
+    skillID: 22
+    skillDescription: "\u77ED\u6682\u84C4\u529B\u540E\uFF0C\u5229\u7528\u5468\u56F4\u72C2\u98CE\u53D1\u5C04\u51FA\u7206\u70B8\u4E00\u7BAD\uFF0C\u72D9\u51FB\u7BAD\u6BCF\u7A7F\u8D8A\u4E00\u540D\u654C\u4EBA\u4F24\u5BB3\u5C06\u63D0\u9AD8"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 4368e0ae5bc9a934c88a839176e249ae, type: 3}
+    animationName: SkillReleaseV2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 8
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 8300000, guid: 7cb62d58a59916247b92f212f925dad1, type: 3}
+    soundEffect: {fileID: 0}
+    castEffect: CastArrowEffect
+    castTime: 0.399
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: WindBreakingArrowSkill
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 1.11
+    skillDelay: 0
+    skillTime: 0.53
+    changePosition: 1
+    changeValue: -20
+    changeTimer: 0.2
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u795E\u8C15\u672F"
+    skillID: 24
+    skillDescription: "\u53EC\u5524\u5723\u5149\u7167\u5C04\u81EA\u8EAB\uFF0C\u5723\u5149\u8303\u56F4\u5185\u654C\u4EBA\u5C06\u53D7\u5230\u591A\u6BB5\u4F24\u5BB3\uFF0C\u53CB\u65B9\u53CA\u81EA\u8EAB\u5C06\u4F1A\u5F97\u5230\u8840\u91CF\u6062\u590D"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c35c4f715c7854246b8f5c3f44cd6ce5, type: 3}
+    animationName: SkillReleaseV5
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 12
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 9a22b504e79480142899e6410fb1e1a1, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: HealingMagicSkill
+    skillPositionOffset: {x: 0, y: 0.5, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.3
+    skillTime: 2
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u81F4\u547D\u72D9\u51FB"
+    skillID: 25
+    skillDescription: "\u4E13\u6CE8\u4E00\u7BAD\uFF0C\u5BF9\u5355\u4F53\u654C\u4EBA\u9020\u6210\u5DE8\u989D\u4F24\u5BB3 "
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: e8d131b8ff93a6b4bbc255c2509adbb9, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 4
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: CastDeadlyShoot
+    castTime: 0.1
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: DeadlyShootSkill
+    skillPositionOffset: {x: 0, y: 0.5, z: 7}
+    BeforeReleseSkillTime: 0.2
+    skillDelay: 0
+    skillTime: 0.3
+    changePosition: 1
+    changeValue: -15
+    changeTimer: 0.2
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u77F3\u5934\u602A\u8F70\u584C"
+    skillID: 26
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300004, guid: acc0224da40bd614eaa39fa27daa0b19, type: 3}
+    animationName: Attack1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 5
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: GolemSkill01SkillRange
+    castTime: 0
+    CastEffctOffset: {x: 5, y: -10, z: -10}
+    skillPrefab: GolemSkill01
+    skillPositionOffset: {x: 0, y: 7, z: 5}
+    BeforeReleseSkillTime: 0
+    skillDelay: 1.5
+    skillTime: 0.5
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u77F3\u5934\u602A\u91CE\u86EE\u51B2\u649E"
+    skillID: 27
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300004, guid: acc0224da40bd614eaa39fa27daa0b19, type: 3}
+    animationName: Attack2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 5
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: GolemSkill02SkillRange
+    castTime: 0
+    CastEffctOffset: {x: 0, y: -10, z: -10}
+    skillPrefab: GolemSkill02
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 1
+    skillTime: 0.5
+    changePosition: 1
+    changeValue: 80
+    changeTimer: 1.5
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u77F3\u5934\u602A\u56DB\u5206\u65E0\u88C2"
+    skillID: 28
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300004, guid: acc0224da40bd614eaa39fa27daa0b19, type: 3}
+    animationName: Attack3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 5
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: a63693db0b4024d48924909847550b4c, type: 3}
+    castEffect: GolemSkill03SkillRange
+    castTime: 0
+    CastEffctOffset: {x: 0, y: -10, z: -5}
+    skillPrefab: GolemSkill03
+    skillPositionOffset: {x: 0, y: -11, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 1
+    skillTime: 0.5
+    changePosition: 0
+    changeValue: 60
+    changeTimer: 2
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 1280
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5C16\u523A\u4E4C\u9F9F\u666E\u901A\u653B\u51FB"
+    skillID: 29
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300004, guid: acc0224da40bd614eaa39fa27daa0b19, type: 3}
+    animationName: Attack
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 4897349b4dbda9e42ae25bd49e930c67, type: 3}
+    castEffect: TurtleBeforeAttackEffect
+    castTime: 0.2
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: TurtleShellAttack
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0.5
+    skillDelay: 0.1
+    skillTime: 0.5
+    changePosition: 1
+    changeValue: 20
+    changeTimer: 0.5
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16780544
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u76FE\u724C\u5F39\u5C04"
+    skillID: 30
+    skillDescription: "\u6254\u51FA\u76FE\u724C\uFF0C\u76FE\u724C\u5C06\u5728\u654C\u4EBA\u5468\u56F4\u8FDB\u884C\u5F39\u5C04"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: 3e144f508255f474fbbb5437f1f3a1eb, type: 3}
+    animationName: SkillReleaseV2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 3
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: bbf651f910d174a39a525279fbf3769c, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: Shield3Launch
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.3
+    skillTime: 0.2
+    changePosition: 0
+    changeValue: 20
+    changeTimer: 0.5
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 1280
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u53F2\u83B1\u59C6\u5149\u7EBF"
+    skillID: 31
+    skillDescription: "\u5FB7\u739B\u897F\u4E9A\uFF01\uFF01\uFF01"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 6013f99a51d92b44f849fe3977e4c2c3, type: 3}
+    animationName: Attack
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 83f4ae34f2127444c83b90502c13be33, type: 3}
+    castEffect: 
+    castTime: 0.1
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SlimeBeam
+    skillPositionOffset: {x: 0, y: -0.5, z: 36}
+    BeforeReleseSkillTime: 0.3
+    skillDelay: 0
+    skillTime: 0.7
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u7206\u88C2\u76FE"
+    skillID: 32
+    skillDescription: "\u751F\u6210\u62A4\u76FE\uFF0C\u52A0\u6210\u653B\u51FB\u529B\u548C\u9632\u5FA1\u529B\uFF0C\u5E76\u4EA7\u751F\u4E00\u5B9A\u8303\u56F4\u7684\u7206\u70B8\uFF0C\u5BF9\u654C\u4EBA\u9020\u6210\u4F24\u5BB3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 0c0ea94b588256d44b01e26c56f8bbf3, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 12
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 949af0b85ed485d4cbc42250c5514d6b, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: ShieldExposion
+    skillPositionOffset: {x: 0, y: 0, z: -8}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.7
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5BD2\u51B0\u7BAD\u96E8"
+    skillID: 33
+    skillDescription: "\u5411\u524D\u65B9\u5C04\u51FA\u591A\u53EA\u7BAD\uFF0C\u5BF9\u63A5\u89E6\u5230\u7684\u654C\u4EBA\u8FDB\u884C\u51BB\u7ED3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: cc0c8d4bd140e46879653895a4a1d4dd, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 12
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2d46f750b4946a8448163dcf2f466bd9, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: IceRainArrow
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.4
+    changePosition: 1
+    changeValue: -8
+    changeTimer: 0.2
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5929\u964D\u9668\u77F3"
+    skillID: 34
+    skillDescription: "\u9668\u77F3\u4ECE\u5929\u800C\u964D\uFF0C\u4EA7\u751F\u7206\u70B8"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 1
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: 412c54c27f8174dc99d02b3622fce8f4, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 4
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 274ce3c8b8645ce4e9d053af70514bdc, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: Meteorite
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.1
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5927\u5730\u9707\u52A8"
+    skillID: 35
+    skillDescription: "\u5C06\u529B\u91CF\u4F20\u4E8E\u81EA\u8EAB\u811A\u4E0B\uFF0C\u5BF9\u5468\u56F4\u7684\u654C\u4EBA\u9020\u6210\u7729\u6655"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 0
+    skillIcon: {fileID: 21300000, guid: e8935d233693f4b48806cece1e461421, type: 3}
+    animationName: 
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 9
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2b4dd339329e6894db3fb25d446ad257, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GroundQuake
+    skillPositionOffset: {x: 0, y: -0.8, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u730E\u4EBA\u7684\u9677\u9631"
+    skillID: 36
+    skillDescription: " \u5411\u524D\u65B9\u6295\u63B7\u51FA\u4E00\u4E2A\u9677\u9631\uFF0C\u80FD\u8212\u670D\u4F4F\u9677\u9631\u4E4B\u4E0A\u7684\u654C\u4EBA\uFF0C\u5728\u4E00\u6BB5\u65F6\u95F4\u8FC7\u540E\u53D1\u751F\u8303\u56F4\u7206\u70B8 "
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 1
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: 5ae8edfab2ac5d74d94f207dac5d7b16, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 2
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2b4dd339329e6894db3fb25d446ad257, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: Trap
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u65CB\u8F6C\u602A"
+    skillID: 37
+    skillDescription: "\u56F0\u4F4F\u4EA7\u751F\u7206\u70B8"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: 5ae8edfab2ac5d74d94f207dac5d7b16, type: 3}
+    animationName: Attack
+    IsLoop: 1
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: Orcspin
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.2
+    skillTime: 1.3
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u690D\u7269\u602A\u517D\u6280\u80FD"
+    skillID: 38
+    skillDescription: "\u56F0\u4F4F\u4EA7\u751F\u7206\u70B8"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: 5ae8edfab2ac5d74d94f207dac5d7b16, type: 3}
+    animationName: Attack
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: ae899f4ce9e2c564dae6d662bb2f48ab, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: MonsterPlantSkill
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.25
+    skillTime: 1
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u98CE\u65E0\u884C"
+    skillID: 39
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: SkillReleaseV1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 11
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 6134e2d6d5ea46c45b468f24105a8f13, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: PenSpBuff
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.1
+    skillTime: 0.2
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 0.3
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8192
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u4F19\u4F34\u8001\u864E\u6280\u80FD00"
+    skillID: 40
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: Attack1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 0ad5f9cf8862bd54aa653707237f4768, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: TigerSkill00
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.34
+    skillTime: 1.66
+    changePosition: 1
+    changeValue: 35
+    changeTimer: 1
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 2048
+    CanJump: 0
+    JumpForce: 1
+    JumpZSpeed: 60
+    JumpTime: 1
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u4F19\u4F34\u8001\u864E\u6280\u80FD01"
+    skillID: 41
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: Attack2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: TigerSkill01
+    skillPositionOffset: {x: 0, y: 0, z: 5}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.45
+    skillTime: 1.1
+    changePosition: 1
+    changeValue: 15
+    changeTimer: 0.2
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 10496
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u4F19\u4F34\u8001\u864E\u6280\u80FD02"
+    skillID: 42
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: Attack3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: TigerSkill02
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 1.15
+    skillTime: 1.25
+    changePosition: 0
+    changeValue: 15
+    changeTimer: 0.1
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u8718\u86DB\u6280\u80FD01"
+    skillID: 43
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: Attack1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 984051c5d8fc4f845b20ee749af71f3b, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SpiderSkill01
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.465
+    skillTime: 1.035
+    changePosition: 0
+    changeValue: 15
+    changeTimer: 0.1
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u8718\u86DB\u6280\u80FD02"
+    skillID: 44
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: Attack2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SpiderSkill02
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.2
+    skillTime: 5
+    changePosition: 0
+    changeValue: 15
+    changeTimer: 0.1
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 2304
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 1
+    TargetHeight: 80
+    UpSpeed: 400
+    DownSpeed: 20
+    FlyDuration: 2
+    DownDeclerationMultiple: 100
+    FollowTargetSpeed: 2
+    UpDeclerationMultiple: 150
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u8718\u86DB\u6280\u80FD03"
+    skillID: 45
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: 
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 8300000, guid: 458c6604a77ba204da26a0101bd7a732, type: 3}
+    soundEffect: {fileID: 0}
+    castEffect: Spider_Skill3_CastEffect
+    castTime: 0.166
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SpiderSkill03
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0.7
+    skillDelay: 0
+    skillTime: 0.634
+    changePosition: 1
+    changeValue: 30
+    changeTimer: 0.5
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16778496
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 40
+    UpSpeed: 40
+    DownSpeed: 15
+    FlyDuration: 1.5
+    DownDeclerationMultiple: 3
+    FollowTargetSpeed: 4
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5927\u5251\u58EB\u88AB\u52A8\u6280\u80FD"
+    skillID: 46
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: 
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GreatSwordPassiveSkill
+    skillPositionOffset: {x: 0, y: 0, z: 5}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 0
+    changePosition: 0
+    changeValue: 30
+    changeTimer: 0.5
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16778496
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 40
+    UpSpeed: 40
+    DownSpeed: 15
+    FlyDuration: 1.5
+    DownDeclerationMultiple: 3
+    FollowTargetSpeed: 4
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u5927\u5251\u58EB\u9F99\u5377\u98CE"
+    skillID: 47
+    skillDescription: "\u53D1\u51FA\u4E00\u4E2A\u65A9\u51FB\u5F62\u6210\u4E09\u9053\u9F99\u5377\u98CE\uFF0C\u5BF9\u6CBF\u9014\u7684\u654C\u4EBA\u9020\u6210\u4F24\u5BB3"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: 84152734fbc09874cb5b4fda35eaeb85, type: 3}
+    animationName: SkillReleaseV2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 5
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 6443c0b83c044de4d9950497fabd1dd4, type: 3}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GreatSwordTornado
+    skillPositionOffset: {x: 0, y: -5, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.2
+    skillTime: 0.7
+    changePosition: 0
+    changeValue: 30
+    changeTimer: 0.5
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16778496
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 40
+    UpSpeed: 40
+    DownSpeed: 15
+    FlyDuration: 1.5
+    DownDeclerationMultiple: 3
+    FollowTargetSpeed: 4
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u58EB\u5175\u653B\u51FB"
+    skillID: 48
+    skillDescription: "\u65E0\u89C6\u654C\u4EBA\u78B0\u649E\uFF0C\u63D0\u5347\u79FB\u52A8\u901F\u5EA6"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: c8f5e00e79ec7e94390c8b55e4ce6a40, type: 3}
+    animationName: Attack
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SoldierSkill
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.4
+    skillTime: 2
+    changePosition: 1
+    changeValue: 5
+    changeTimer: 0.1
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 10496
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u519B\u56E2\u9A91\u58EB\u88AB\u52A8\u6280\u80FD"
+    skillID: 49
+    skillDescription: "\u602A\u7269\u53EC\u5524"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300004, guid: acc0224da40bd614eaa39fa27daa0b19, type: 3}
+    animationName: 
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: SolderCall
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 0
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u70AE\u706B\u8F70\u70B8"
+    skillID: 50
+    skillDescription: "\u53EC\u5524\u51FA\u70AE\u53F0\u7EC4\uFF0C\u5BF9\u524D\u65B9\u8FDB\u884C\u70AE\u5F39\u8F70\u70B8"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: dab14002ffa30c844b2ca6255376456c, type: 3}
+    animationName: SkillReleaseV5
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 10
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: ArtilleryAttack
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.3
+    skillTime: 0.7
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u795E\u660E\u77F3\u5934\u4EBA\u653B\u51FB1"
+    skillID: 51
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 0
+    skillIcon: {fileID: 21300000, guid: e8935d233693f4b48806cece1e461421, type: 3}
+    animationName: Attack1
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GodGolemAttack1
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.225
+    skillTime: 0.2
+    changePosition: 0
+    changeValue: 0
+    changeTimer: 0
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u795E\u660E\u77F3\u5934\u4EBA\u653B\u51FB2"
+    skillID: 52
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: dab14002ffa30c844b2ca6255376456c, type: 3}
+    animationName: Attack2
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GodGolemAttack2
+    skillPositionOffset: {x: 0, y: 0, z: -5}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.225
+    skillTime: 0.2
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u795E\u660E\u77F3\u5934\u4EBA\u653B\u51FB3"
+    skillID: 53
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: dab14002ffa30c844b2ca6255376456c, type: 3}
+    animationName: Attack3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GodGolemAttack3
+    skillPositionOffset: {x: 0, y: 0, z: -5}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.4
+    skillTime: 0.4
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u795E\u660E\u5728\u4E0A"
+    skillID: 54
+    skillDescription: "\u77ED\u65F6\u95F4\u53EC\u5524\u795E\u660E\uFF0C\u4E0E\u795E\u660E\u4E00\u8D77\u62B5\u5FA1\u654C\u4EBA"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: af9ecc8c596addc48b2fbb2d659a7a01, type: 3}
+    animationName: SkillReleaseV7
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 20
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: GodGolem
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.3
+    skillTime: 0.2
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u98DE\u96F7\u795E\u4E4B\u7BAD"
+    skillID: 55
+    skillDescription: " \u5411\u524D\u65B9\u5C04\u51FA\u4E00\u7BAD\uFF0C\u5F53\u518D\u6B21\u89E6\u53D1\u6280\u80FD\u65F6\u5C06\u77AC\u95F4\u5230\u8FBE\u7BAD\u7684\u4F4D\u7F6E"
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 21300000, guid: d441fecc3744a214790dc93b6f4b1ffd, type: 3}
+    animationName: SkillReleaseV3
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 5
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 93fe813ab6b97a24f999a91db3a335f1, type: 3}
+    castEffect: CastMarkArrow
+    castTime: 0.1
+    CastEffctOffset: {x: 0, y: 0, z: 8}
+    skillPrefab: MarkArrow
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 0.4
+    changePosition: 1
+    changeValue: -10
+    changeTimer: 0.2
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 1
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u53EC\u5524\u77F3"
+    skillID: 56
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: d441fecc3744a214790dc93b6f4b1ffd, type: 3}
+    animationName: 
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 8}
+    skillPrefab: SummonerPassiveSkill
+    skillPositionOffset: {x: 0, y: 3, z: -10}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 0
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u706B\u9F99"
+    skillID: 57
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: d441fecc3744a214790dc93b6f4b1ffd, type: 3}
+    animationName: Attack
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 8}
+    skillPrefab: MutipleDragonFireBall
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.8
+    skillTime: 3
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: "\u8783\u87F9"
+    skillID: 58
+    skillDescription: 
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 2
+    skillIcon: {fileID: 21300000, guid: d441fecc3744a214790dc93b6f4b1ffd, type: 3}
+    animationName: Attack
+    IsLoop: 1
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 8}
+    skillPrefab: CrabMonsterSkill
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 1.28
+    skillTime: 0.72
+    changePosition: 0
+    changeValue: 10
+    changeTimer: 3.6
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    CanJump: 0
+    JumpForce: 50
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: Demon Catch
+    skillID: 59
+    skillDescription: first skill of boss in first level (forest title)
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 0}
+    animationName: Skill01
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: DemonCatch
+    skillPositionOffset: {x: 2, y: 0, z: 8}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.25
+    skillTime: 0.75
+    changePosition: 1
+    changeValue: 20
+    changeTimer: 0.2
+    prventThrough: 1
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16778240
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: Demon Laser
+    skillID: 60
+    skillDescription: second skill of boss in first level (forest title)
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 0}
+    animationName: Skill03
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: 0, z: 0}
+    skillPrefab: DemonLaser
+    skillPositionOffset: {x: 0, y: 0, z: 0}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 4
+    changePosition: 0
+    changeValue: 30
+    changeTimer: 0.2
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16778240
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: Demon Dash
+    skillID: 61
+    skillDescription: 3th skill of boss in first level (forest title)
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 2
+    whileAttack: 1
+    skillIcon: {fileID: 0}
+    animationName: Skill02
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: CastDemonDash
+    castTime: 0
+    CastEffctOffset: {x: 0, y: -5, z: 0}
+    skillPrefab: DemonDash
+    skillPositionOffset: {x: 2, y: 11, z: 14}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0.55
+    skillTime: 0.55
+    changePosition: 1
+    changeValue: 100
+    changeTimer: 0.5
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: 
+    _cantCoolDown: 0
+  - skillName: Demon Boom
+    skillID: 62
+    skillDescription: 4th skill of boss in first level (forest title)
+    skillType: 0
+    skillProperty: 0
+    skillSpawn: 0
+    whileAttack: 1
+    skillIcon: {fileID: 0}
+    animationName: 
+    IsLoop: 0
+    permitDash: 0
+    cooldown: 0
+    CanReduceSkillCoolDown: 0
+    castSoundEffect: {fileID: 0}
+    soundEffect: {fileID: 0}
+    castEffect: 
+    castTime: 0
+    CastEffctOffset: {x: 0, y: -5, z: 0}
+    skillPrefab: DemonBoom
+    skillPositionOffset: {x: 0, y: 33, z: 10}
+    BeforeReleseSkillTime: 0
+    skillDelay: 0
+    skillTime: 10
+    changePosition: 0
+    changeValue: 100
+    changeTimer: 0.5
+    prventThrough: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16778240
+    CanJump: 0
+    JumpForce: 0
+    JumpZSpeed: 0
+    JumpTime: 0
+    StartFrezzeAnim: 0
+    FrezzeAnimDuration: 0
+    Fly: 0
+    TargetHeight: 0
+    UpSpeed: 0
+    DownSpeed: 0
+    FlyDuration: 0
+    DownDeclerationMultiple: 0
+    FollowTargetSpeed: 0
+    UpDeclerationMultiple: 0
+    WaitSkillTrigger: 0
+    _playableAssetKey: Ultimate
+    _cantCoolDown: 0

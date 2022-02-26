@@ -1,0 +1,3962 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "SkillUnitList",
+        "m_EditorClassIdentifier": "",
+        "skillList": [
+            {
+                "skillName": "突刺",
+                "skillID": 1,
+                "skillDescription": "角色向前方冲刺一段距离，对沿途的敌人造成伤害",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "26c4afc91c9fedf458ed7780695bd61e",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 3.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "83610f2bbf2c6438ab62e93b7032179c",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SpikeSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 0.5,
+                "changePosition": 1,
+                "changeValue": 80.0,
+                "changeTimer": 0.5,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 3.0,
+                "JumpZSpeed": 100.0,
+                "JumpTime": 0.800000011920929,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "剑刃斩",
+                "skillID": 2,
+                "skillDescription": "向前方斩出一道较宽的气刃，对接触到的敌人造成伤害",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 0,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "706168558e190d640b1ec9ce3329e4bf",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 4.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "0b227d82dfc6e4cff898b9ca0401cd25",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SlashFireBird",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.20000000298023225,
+                "skillTime": 0.699999988079071,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.5,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "环月",
+                "skillID": 3,
+                "skillDescription": "以自身为中心进行旋转攻击，造成伤害并击退敌人",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "ed59cecdf8d43414d9388c823b671967",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 6.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "fd26afdba879e466da07ee6dfebd715b",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "RoundTheMoon",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.5199999809265137,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.5,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "盾突",
+                "skillID": 4,
+                "skillDescription": "向前方冲刺一段距离，并且击晕前方敌人",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "ead62d0ad2e453f42a52091dc3e639fc",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV5",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 8.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "9471abba90eb186458a76ceb260744c2",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "ShieldPunch",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.15000000596046449,
+                "skillTime": 0.4000000059604645,
+                "changePosition": 1,
+                "changeValue": 30.0,
+                "changeTimer": 0.25,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 10496
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "箭雨",
+                "skillID": 7,
+                "skillDescription": "向天空释放多只弓箭，对地面的敌人造成多段伤害",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 1,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "173b40c7ac4cf1740a9676d42f134f71",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 8.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "fileID": 8300000,
+                    "guid": "3a7e9faa9dbcba041b6a3bf959deeee9",
+                    "type": 3
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "1930752a625537949be4d83b0fdc2d96",
+                    "type": 3
+                },
+                "castEffect": "SpearRainUp",
+                "castTime": 0.30000001192092898,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SpearRainDown",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.30000001192092898,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "爆炸火球",
+                "skillID": 8,
+                "skillDescription": " 释放一颗飞行火球，在接触到物体时发生爆炸",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "249dfc26dbcd7a049b6f092434092f1d",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 7.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "3390908d7a153e84ba89052e67534dfe",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "FireBall",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.5,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "疾风印记",
+                "skillID": 9,
+                "skillDescription": "短暂的提高自身攻速",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "f805132d9a9031248b4c2a1b848f65e1",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 11.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "6134e2d6d5ea46c45b468f24105a8f13",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "AttackSpeedBuff",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.30000001192092898,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "穿云箭",
+                "skillID": 10,
+                "skillDescription": " 向前方射出一个穿越物体的巨箭，并对自身造成击退",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 0,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "d8c58ba160f451f44b4288e0c8d7ec83",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": true,
+                "cooldown": 8.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "4da9cbe65a86b6747964d912aa2e2aac",
+                    "type": 3
+                },
+                "castEffect": "CloudArrowCastEffect",
+                "castTime": 0.20000000298023225,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 2.0,
+                    "z": 5.0
+                },
+                "skillPrefab": "CloudBow",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 20.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 0.5,
+                "changePosition": 1,
+                "changeValue": -20.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "闪电球",
+                "skillID": 11,
+                "skillDescription": "召唤环绕自身的三颗雷电发球，对接触的敌人造成伤害",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "0d02da847ab5c5f4b8332b0fb4f261d4",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 18.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "5fe13d4e1997e2a4bbf31fb15407519d",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "LightningBall",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.30000001192092898,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "魔法光线",
+                "skillID": 12,
+                "skillDescription": "短暂施法过后，面前形成一个巨大光束对命中的敌人造成巨额伤害并减速",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "6013f99a51d92b44f849fe3977e4c2c3",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 9.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "7257b5a1b38727b4ab9a02570d68e7cd",
+                    "type": 3
+                },
+                "castEffect": "CastBeam",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 8.0,
+                    "z": 7.0
+                },
+                "skillPrefab": "Beam",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 5.0,
+                    "z": 65.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.9319999814033508,
+                "skillTime": 0.699999988079071,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "鬼斩",
+                "skillID": 13,
+                "skillDescription": "向前方冲刺之后将会化成多段斩击，对敌人造成多段伤害",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "3722947264e61aa468954e3e91ac7e69",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 15.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GhostSlash",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 3.5,
+                "changePosition": 1,
+                "changeValue": 50.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "防御反击",
+                "skillID": 14,
+                "skillDescription": "将进入一段时间无敌，无敌之后将释放巨大盾牌对接触的敌人造成眩晕",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "2cc96f1bb1f3a7b408dd52372b8a5ac4",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 10.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "BeforeCounterAttack",
+                "castTime": 0.18000000715255738,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 2.0,
+                    "z": 8.0
+                },
+                "skillPrefab": "CounterAttack",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 2.0,
+                "skillDelay": 0.0,
+                "skillTime": 0.20000000298023225,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "冰冻术",
+                "skillID": 15,
+                "skillDescription": "快速在自身周围召唤出冰场，冻住冰场中的敌人",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "ecc59e856c8ef754c951610b7d847729",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV4",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 10.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "aa7f47130afcc8646a17f66a608e0d94",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": -3.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "IceFreezeSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -2.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.15000000596046449,
+                "skillTime": 0.15000000596046449,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "黑洞",
+                "skillID": 16,
+                "skillDescription": "向前方释放一颗引力黑洞，黑洞周围物体将被吸引",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "89e90d1847d8bd042adcde1edc98a317",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 10.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 10.0
+                },
+                "skillPrefab": "BlackHoleSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 5.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.33000001311302187,
+                "skillTime": 0.10000000149011612,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "狂怒旋风",
+                "skillID": 17,
+                "skillDescription": "狂战士以自身进行旋转攻击，对接触到敌人造成伤害，持续5秒",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "693e87ba899f35e4d9463311a38f22f1",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV4",
+                "IsLoop": true,
+                "permitDash": false,
+                "cooldown": 10.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "CrazyStormSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 5.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "狂战陨击",
+                "skillID": 18,
+                "skillDescription": "狂战士向前方跳起并进行砸地攻击，落地处造成高额范围伤害，允许触发暴击",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "de67c13d900a22e4d91e58ef603a8cd2",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV6",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 6.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "CrazyDropDwonSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -2.0,
+                    "z": 1.5
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 1.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": true,
+                "JumpForce": 4.0,
+                "JumpZSpeed": 70.0,
+                "JumpTime": 0.8999999761581421,
+                "StartFrezzeAnim": 0.10999999940395355,
+                "FrezzeAnimDuration": 0.30000001192092898,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "怪物召唤",
+                "skillID": 19,
+                "skillDescription": " 召唤一个坚如磐石的伙伴，能主动嘲讽住周围敌人",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "462dacd452830624cab60c94d7ccdd4d",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 10.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "62425871516586348b2174745de6f7c7",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "MonsterCallSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.699999988079071,
+                "skillTime": 0.9700000286102295,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "元素召唤",
+                "skillID": 20,
+                "skillDescription": "召唤一个火龙，具有极高的伤害输出能力",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "e6c25d21d24678d44a1f058d96278d38",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 10.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "62425871516586348b2174745de6f7c7",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "ElementCallSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -1.5,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.699999988079071,
+                "skillTime": 0.9700000286102295,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "集中",
+                "skillID": 21,
+                "skillDescription": " 再次大幅度替身自身攻速",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "d141aa700dc92a641b218037f513e293",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV1",
+                "IsLoop": false,
+                "permitDash": true,
+                "cooldown": 11.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "6134e2d6d5ea46c45b468f24105a8f13",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "ConcentrateSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -3.5,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.4000000059604645,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "破风狙击箭",
+                "skillID": 22,
+                "skillDescription": "短暂蓄力后，利用周围狂风发射出爆炸一箭，狙击箭每穿越一名敌人伤害将提高",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "4368e0ae5bc9a934c88a839176e249ae",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 8.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "fileID": 8300000,
+                    "guid": "7cb62d58a59916247b92f212f925dad1",
+                    "type": 3
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "CastArrowEffect",
+                "castTime": 0.39899998903274538,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "WindBreakingArrowSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 1.1100000143051148,
+                "skillDelay": 0.0,
+                "skillTime": 0.5299999713897705,
+                "changePosition": 1,
+                "changeValue": -20.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "神谕术",
+                "skillID": 24,
+                "skillDescription": "召唤圣光照射自身，圣光范围内敌人将受到多段伤害，友方及自身将会得到血量恢复",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c35c4f715c7854246b8f5c3f44cd6ce5",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV5",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 12.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "9a22b504e79480142899e6410fb1e1a1",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "HealingMagicSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.5,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.30000001192092898,
+                "skillTime": 2.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "致命狙击",
+                "skillID": 25,
+                "skillDescription": "专注一箭，对单体敌人造成巨额伤害 ",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "e8d131b8ff93a6b4bbc255c2509adbb9",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 4.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "CastDeadlyShoot",
+                "castTime": 0.10000000149011612,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "DeadlyShootSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.5,
+                    "z": 7.0
+                },
+                "BeforeReleseSkillTime": 0.20000000298023225,
+                "skillDelay": 0.0,
+                "skillTime": 0.30000001192092898,
+                "changePosition": 1,
+                "changeValue": -15.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "石头怪轰塌",
+                "skillID": 26,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300004,
+                    "guid": "acc0224da40bd614eaa39fa27daa0b19",
+                    "type": 3
+                },
+                "animationName": "Attack1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 5.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "GolemSkill01SkillRange",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 5.0,
+                    "y": -10.0,
+                    "z": -10.0
+                },
+                "skillPrefab": "GolemSkill01",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 7.0,
+                    "z": 5.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 1.5,
+                "skillTime": 0.5,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "石头怪野蛮冲撞",
+                "skillID": 27,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300004,
+                    "guid": "acc0224da40bd614eaa39fa27daa0b19",
+                    "type": 3
+                },
+                "animationName": "Attack2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 5.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "GolemSkill02SkillRange",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": -10.0,
+                    "z": -10.0
+                },
+                "skillPrefab": "GolemSkill02",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 1.0,
+                "skillTime": 0.5,
+                "changePosition": 1,
+                "changeValue": 80.0,
+                "changeTimer": 1.5,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "石头怪四分无裂",
+                "skillID": 28,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300004,
+                    "guid": "acc0224da40bd614eaa39fa27daa0b19",
+                    "type": 3
+                },
+                "animationName": "Attack3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 5.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "a63693db0b4024d48924909847550b4c",
+                    "type": 3
+                },
+                "castEffect": "GolemSkill03SkillRange",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": -10.0,
+                    "z": -5.0
+                },
+                "skillPrefab": "GolemSkill03",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -11.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 1.0,
+                "skillTime": 0.5,
+                "changePosition": 0,
+                "changeValue": 60.0,
+                "changeTimer": 2.0,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 1280
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "尖刺乌龟普通攻击",
+                "skillID": 29,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300004,
+                    "guid": "acc0224da40bd614eaa39fa27daa0b19",
+                    "type": 3
+                },
+                "animationName": "Attack",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "4897349b4dbda9e42ae25bd49e930c67",
+                    "type": 3
+                },
+                "castEffect": "TurtleBeforeAttackEffect",
+                "castTime": 0.20000000298023225,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "TurtleShellAttack",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.5,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.5,
+                "changePosition": 1,
+                "changeValue": 20.0,
+                "changeTimer": 0.5,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 16780544
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "盾牌弹射",
+                "skillID": 30,
+                "skillDescription": "扔出盾牌，盾牌将在敌人周围进行弹射",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "3e144f508255f474fbbb5437f1f3a1eb",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 3.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "bbf651f910d174a39a525279fbf3769c",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "Shield3Launch",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.30000001192092898,
+                "skillTime": 0.20000000298023225,
+                "changePosition": 0,
+                "changeValue": 20.0,
+                "changeTimer": 0.5,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 1280
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "史莱姆光线",
+                "skillID": 31,
+                "skillDescription": "德玛西亚！！！",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "6013f99a51d92b44f849fe3977e4c2c3",
+                    "type": 3
+                },
+                "animationName": "Attack",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "83f4ae34f2127444c83b90502c13be33",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.10000000149011612,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SlimeBeam",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -0.5,
+                    "z": 36.0
+                },
+                "BeforeReleseSkillTime": 0.30000001192092898,
+                "skillDelay": 0.0,
+                "skillTime": 0.699999988079071,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "爆裂盾",
+                "skillID": 32,
+                "skillDescription": "生成护盾，加成攻击力和防御力，并产生一定范围的爆炸，对敌人造成伤害",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "0c0ea94b588256d44b01e26c56f8bbf3",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 12.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "949af0b85ed485d4cbc42250c5514d6b",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "ShieldExposion",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -8.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.699999988079071,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "寒冰箭雨",
+                "skillID": 33,
+                "skillDescription": "向前方射出多只箭，对接触到的敌人进行冻结",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "cc0c8d4bd140e46879653895a4a1d4dd",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 12.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "2d46f750b4946a8448163dcf2f466bd9",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "IceRainArrow",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.4000000059604645,
+                "changePosition": 1,
+                "changeValue": -8.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "天降陨石",
+                "skillID": 34,
+                "skillDescription": "陨石从天而降，产生爆炸",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 1,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "412c54c27f8174dc99d02b3622fce8f4",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 4.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "274ce3c8b8645ce4e9d053af70514bdc",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "Meteorite",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.10000000149011612,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "大地震动",
+                "skillID": 35,
+                "skillDescription": "将力量传于自身脚下，对周围的敌人造成眩晕",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 0,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "e8935d233693f4b48806cece1e461421",
+                    "type": 3
+                },
+                "animationName": "",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 9.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "2b4dd339329e6894db3fb25d446ad257",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GroundQuake",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -0.800000011920929,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "猎人的陷阱",
+                "skillID": 36,
+                "skillDescription": " 向前方投掷出一个陷阱，能舒服住陷阱之上的敌人，在一段时间过后发生范围爆炸 ",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 1,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "5ae8edfab2ac5d74d94f207dac5d7b16",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 2.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "2b4dd339329e6894db3fb25d446ad257",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "Trap",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "旋转怪",
+                "skillID": 37,
+                "skillDescription": "困住产生爆炸",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "5ae8edfab2ac5d74d94f207dac5d7b16",
+                    "type": 3
+                },
+                "animationName": "Attack",
+                "IsLoop": true,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "Orcspin",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.20000000298023225,
+                "skillTime": 1.2999999523162842,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "植物怪兽技能",
+                "skillID": 38,
+                "skillDescription": "困住产生爆炸",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "5ae8edfab2ac5d74d94f207dac5d7b16",
+                    "type": 3
+                },
+                "animationName": "Attack",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "ae899f4ce9e2c564dae6d662bb2f48ab",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "MonsterPlantSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.25,
+                "skillTime": 1.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "风无行",
+                "skillID": 39,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 11.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "6134e2d6d5ea46c45b468f24105a8f13",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "PenSpBuff",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.10000000149011612,
+                "skillTime": 0.20000000298023225,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 0.30000001192092898,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 8192
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "伙伴老虎技能00",
+                "skillID": 40,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "Attack1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "0ad5f9cf8862bd54aa653707237f4768",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "TigerSkill00",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.3400000035762787,
+                "skillTime": 1.659999966621399,
+                "changePosition": 1,
+                "changeValue": 35.0,
+                "changeTimer": 1.0,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 2048
+                },
+                "CanJump": false,
+                "JumpForce": 1.0,
+                "JumpZSpeed": 60.0,
+                "JumpTime": 1.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "伙伴老虎技能01",
+                "skillID": 41,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "Attack2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "TigerSkill01",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 5.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.44999998807907107,
+                "skillTime": 1.100000023841858,
+                "changePosition": 1,
+                "changeValue": 15.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 10496
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "伙伴老虎技能02",
+                "skillID": 42,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "Attack3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "TigerSkill02",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 1.149999976158142,
+                "skillTime": 1.25,
+                "changePosition": 0,
+                "changeValue": 15.0,
+                "changeTimer": 0.10000000149011612,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "蜘蛛技能01",
+                "skillID": 43,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "Attack1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "984051c5d8fc4f845b20ee749af71f3b",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SpiderSkill01",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.4650000035762787,
+                "skillTime": 1.034999966621399,
+                "changePosition": 0,
+                "changeValue": 15.0,
+                "changeTimer": 0.10000000149011612,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "蜘蛛技能02",
+                "skillID": 44,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "Attack2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SpiderSkill02",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.20000000298023225,
+                "skillTime": 5.0,
+                "changePosition": 0,
+                "changeValue": 15.0,
+                "changeTimer": 0.10000000149011612,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 2304
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": true,
+                "TargetHeight": 80.0,
+                "UpSpeed": 400.0,
+                "DownSpeed": 20.0,
+                "FlyDuration": 2.0,
+                "DownDeclerationMultiple": 100.0,
+                "FollowTargetSpeed": 2.0,
+                "UpDeclerationMultiple": 150.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "蜘蛛技能03",
+                "skillID": 45,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "fileID": 8300000,
+                    "guid": "458c6604a77ba204da26a0101bd7a732",
+                    "type": 3
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "Spider_Skill3_CastEffect",
+                "castTime": 0.16599999368190766,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SpiderSkill03",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.699999988079071,
+                "skillDelay": 0.0,
+                "skillTime": 0.6340000033378601,
+                "changePosition": 1,
+                "changeValue": 30.0,
+                "changeTimer": 0.5,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 16778496
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 40.0,
+                "UpSpeed": 40.0,
+                "DownSpeed": 15.0,
+                "FlyDuration": 1.5,
+                "DownDeclerationMultiple": 3.0,
+                "FollowTargetSpeed": 4.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "大剑士被动技能",
+                "skillID": 46,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GreatSwordPassiveSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 5.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 0.0,
+                "changePosition": 0,
+                "changeValue": 30.0,
+                "changeTimer": 0.5,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 16778496
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 40.0,
+                "UpSpeed": 40.0,
+                "DownSpeed": 15.0,
+                "FlyDuration": 1.5,
+                "DownDeclerationMultiple": 3.0,
+                "FollowTargetSpeed": 4.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "大剑士龙卷风",
+                "skillID": 47,
+                "skillDescription": "发出一个斩击形成三道龙卷风，对沿途的敌人造成伤害",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "84152734fbc09874cb5b4fda35eaeb85",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 5.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "6443c0b83c044de4d9950497fabd1dd4",
+                    "type": 3
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GreatSwordTornado",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": -5.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.20000000298023225,
+                "skillTime": 0.699999988079071,
+                "changePosition": 0,
+                "changeValue": 30.0,
+                "changeTimer": 0.5,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 16778496
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 40.0,
+                "UpSpeed": 40.0,
+                "DownSpeed": 15.0,
+                "FlyDuration": 1.5,
+                "DownDeclerationMultiple": 3.0,
+                "FollowTargetSpeed": 4.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "士兵攻击",
+                "skillID": 48,
+                "skillDescription": "无视敌人碰撞，提升移动速度",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "c8f5e00e79ec7e94390c8b55e4ce6a40",
+                    "type": 3
+                },
+                "animationName": "Attack",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SoldierSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.4000000059604645,
+                "skillTime": 2.0,
+                "changePosition": 1,
+                "changeValue": 5.0,
+                "changeTimer": 0.10000000149011612,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 10496
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "军团骑士被动技能",
+                "skillID": 49,
+                "skillDescription": "怪物召唤",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300004,
+                    "guid": "acc0224da40bd614eaa39fa27daa0b19",
+                    "type": 3
+                },
+                "animationName": "",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "SolderCall",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 0.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "炮火轰炸",
+                "skillID": 50,
+                "skillDescription": "召唤出炮台组，对前方进行炮弹轰炸",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "dab14002ffa30c844b2ca6255376456c",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV5",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 10.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "ArtilleryAttack",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.30000001192092898,
+                "skillTime": 0.699999988079071,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "神明石头人攻击1",
+                "skillID": 51,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 0,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "e8935d233693f4b48806cece1e461421",
+                    "type": 3
+                },
+                "animationName": "Attack1",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GodGolemAttack1",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.22499999403953553,
+                "skillTime": 0.20000000298023225,
+                "changePosition": 0,
+                "changeValue": 0.0,
+                "changeTimer": 0.0,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "神明石头人攻击2",
+                "skillID": 52,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "dab14002ffa30c844b2ca6255376456c",
+                    "type": 3
+                },
+                "animationName": "Attack2",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GodGolemAttack2",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -5.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.22499999403953553,
+                "skillTime": 0.20000000298023225,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "神明石头人攻击3",
+                "skillID": 53,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "dab14002ffa30c844b2ca6255376456c",
+                    "type": 3
+                },
+                "animationName": "Attack3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GodGolemAttack3",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -5.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.4000000059604645,
+                "skillTime": 0.4000000059604645,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "神明在上",
+                "skillID": 54,
+                "skillDescription": "短时间召唤神明，与神明一起抵御敌人",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "af9ecc8c596addc48b2fbb2d659a7a01",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV7",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 20.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "GodGolem",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.30000001192092898,
+                "skillTime": 0.20000000298023225,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "飞雷神之箭",
+                "skillID": 55,
+                "skillDescription": " 向前方射出一箭，当再次触发技能时将瞬间到达箭的位置",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "d441fecc3744a214790dc93b6f4b1ffd",
+                    "type": 3
+                },
+                "animationName": "SkillReleaseV3",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 5.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "fileID": 8300000,
+                    "guid": "93fe813ab6b97a24f999a91db3a335f1",
+                    "type": 3
+                },
+                "castEffect": "CastMarkArrow",
+                "castTime": 0.10000000149011612,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 8.0
+                },
+                "skillPrefab": "MarkArrow",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 0.4000000059604645,
+                "changePosition": 1,
+                "changeValue": -10.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": true,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "召唤石",
+                "skillID": 56,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "d441fecc3744a214790dc93b6f4b1ffd",
+                    "type": 3
+                },
+                "animationName": "",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 8.0
+                },
+                "skillPrefab": "SummonerPassiveSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 3.0,
+                    "z": -10.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 0.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "火龙",
+                "skillID": 57,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "d441fecc3744a214790dc93b6f4b1ffd",
+                    "type": 3
+                },
+                "animationName": "Attack",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 8.0
+                },
+                "skillPrefab": "MutipleDragonFireBall",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.800000011920929,
+                "skillTime": 3.0,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "螃蟹",
+                "skillID": 58,
+                "skillDescription": "",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 2,
+                "skillIcon": {
+                    "fileID": 21300000,
+                    "guid": "d441fecc3744a214790dc93b6f4b1ffd",
+                    "type": 3
+                },
+                "animationName": "Attack",
+                "IsLoop": true,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 8.0
+                },
+                "skillPrefab": "CrabMonsterSkill",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 1.2799999713897706,
+                "skillTime": 0.7200000286102295,
+                "changePosition": 0,
+                "changeValue": 10.0,
+                "changeTimer": 3.5999999046325685,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 256
+                },
+                "CanJump": false,
+                "JumpForce": 50.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "Demon Catch",
+                "skillID": 59,
+                "skillDescription": "first skill of boss in first level (forest title)",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "instanceID": 0
+                },
+                "animationName": "Skill01",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "DemonCatch",
+                "skillPositionOffset": {
+                    "x": 2.0,
+                    "y": 0.0,
+                    "z": 8.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.25,
+                "skillTime": 0.75,
+                "changePosition": 1,
+                "changeValue": 20.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": true,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 16778240
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "Demon Laser",
+                "skillID": 60,
+                "skillDescription": "second skill of boss in first level (forest title)",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "instanceID": 0
+                },
+                "animationName": "Skill03",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "DemonLaser",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 4.0,
+                "changePosition": 0,
+                "changeValue": 30.0,
+                "changeTimer": 0.20000000298023225,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 16778240
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "Demon Dash",
+                "skillID": 61,
+                "skillDescription": "3th skill of boss in first level (forest title)",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 2,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "instanceID": 0
+                },
+                "animationName": "Skill02",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "CastDemonDash",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": -5.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "DemonDash",
+                "skillPositionOffset": {
+                    "x": 2.0,
+                    "y": 11.0,
+                    "z": 14.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.550000011920929,
+                "skillTime": 0.550000011920929,
+                "changePosition": 1,
+                "changeValue": 100.0,
+                "changeTimer": 0.5,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 0
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "",
+                "_cantCoolDown": false
+            },
+            {
+                "skillName": "Demon Boom",
+                "skillID": 62,
+                "skillDescription": "4th skill of boss in first level (forest title)",
+                "skillType": 0,
+                "skillProperty": 0,
+                "skillSpawn": 0,
+                "whileAttack": 1,
+                "skillIcon": {
+                    "instanceID": 0
+                },
+                "animationName": "",
+                "IsLoop": false,
+                "permitDash": false,
+                "cooldown": 0.0,
+                "CanReduceSkillCoolDown": false,
+                "castSoundEffect": {
+                    "instanceID": 0
+                },
+                "soundEffect": {
+                    "instanceID": 0
+                },
+                "castEffect": "",
+                "castTime": 0.0,
+                "CastEffctOffset": {
+                    "x": 0.0,
+                    "y": -5.0,
+                    "z": 0.0
+                },
+                "skillPrefab": "DemonBoom",
+                "skillPositionOffset": {
+                    "x": 0.0,
+                    "y": 33.0,
+                    "z": 10.0
+                },
+                "BeforeReleseSkillTime": 0.0,
+                "skillDelay": 0.0,
+                "skillTime": 10.0,
+                "changePosition": 0,
+                "changeValue": 100.0,
+                "changeTimer": 0.5,
+                "prventThrough": false,
+                "layerMask": {
+                    "serializedVersion": "2",
+                    "m_Bits": 16778240
+                },
+                "CanJump": false,
+                "JumpForce": 0.0,
+                "JumpZSpeed": 0.0,
+                "JumpTime": 0.0,
+                "StartFrezzeAnim": 0.0,
+                "FrezzeAnimDuration": 0.0,
+                "Fly": false,
+                "TargetHeight": 0.0,
+                "UpSpeed": 0.0,
+                "DownSpeed": 0.0,
+                "FlyDuration": 0.0,
+                "DownDeclerationMultiple": 0.0,
+                "FollowTargetSpeed": 0.0,
+                "UpDeclerationMultiple": 0.0,
+                "WaitSkillTrigger": false,
+                "_playableAssetKey": "Ultimate",
+                "_cantCoolDown": false
+            }
+        ]
+    }
+}

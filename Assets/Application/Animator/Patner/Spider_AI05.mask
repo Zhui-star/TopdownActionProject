@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Spider_AI05
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Body
+    m_Weight: 1
+  - m_Path: Body/Spine01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Belly01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Belly02
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegL04
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegL04/LegL05
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegL04/LegL05/LegL06
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegL07
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegL07/LegL08
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegL07/LegL08/LegL09
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegR04
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegR04/LegR05
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegR04/LegR05/LegR06
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegR07
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegR07/LegR08
+    m_Weight: 1
+  - m_Path: Body/Spine01/LegR07/LegR08/LegR09
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/Eye01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/Eye02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/Eye03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/Eye04
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/Eye05
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/Eye06
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/JawL01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/JawL01/JawL02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/JawL01/JawL02/JawL03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/JawR01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/JawR01/JawR02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/EyeJaw/JawR01/JawR02/JawR03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/LegL01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/LegL01/LegL02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/LegL01/LegL02/LegL03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/LegR01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/LegR01/LegR02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/LegR01/LegR02/LegR03
+    m_Weight: 1
+  - m_Path: Spider
+    m_Weight: 1

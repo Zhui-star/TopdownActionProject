@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63b6dd238eee9342975622011cefebb, type: 3}
+  m_Name: PatnerDataTable
+  m_EditorClassIdentifier: 
+  patnerDatabase:
+  - Name: "\u8001\u864E00"
+    ID: 1
+    _GameObject: {fileID: 6734130197487658224, guid: 022b0cec81c6a1e43b054f8146394b42,
+      type: 3}
+    PatnerDescription: 
+  - Name: "\u58EB\u5175"
+    ID: 2
+    _GameObject: {fileID: 5978607057047745405, guid: 6eff9d2395273a447abbcad2c6bfb2bd,
+      type: 3}
+    PatnerDescription: 
+  - Name: "\u706B\u9F99"
+    ID: 3
+    _GameObject: {fileID: 8870022196272179604, guid: fe2e8a808e6c8c54abc61218e3f678fa,
+      type: 3}
+    PatnerDescription: 
+  - Name: "\u8783\u87F9"
+    ID: 4
+    _GameObject: {fileID: 429276666143167603, guid: 1ca159ad3a9175f4f81f87604617d59d,
+      type: 3}
+    PatnerDescription: 

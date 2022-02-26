@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c1ba75b94f2421ba0bfbb3259aaa33, type: 3}
+  m_Name: BackGroundMusicConfigure
+  m_EditorClassIdentifier: 
+  backGroundMusic:
+  - sceneIndex: 0
+    audioClip: {fileID: 8300000, guid: ff238e9224d091a42aa77f5949ab3a4f, type: 3}
+  - sceneIndex: 2
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 3
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 4
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 5
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 6
+    audioClip: {fileID: 8300000, guid: 271f92703ac19424ba421030c09fa662, type: 3}
+  - sceneIndex: 7
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 8
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 9
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 10
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 11
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 12
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 13
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 14
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 15
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 16
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 17
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 18
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 19
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 20
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 21
+    audioClip: {fileID: 8300000, guid: 533225fe9e435c248b880ebd3062c364, type: 3}
+  - sceneIndex: 22
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 23
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 24
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 25
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 26
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}
+  - sceneIndex: 27
+    audioClip: {fileID: 8300000, guid: 128d302074e8abc468a6a8687394d709, type: 3}

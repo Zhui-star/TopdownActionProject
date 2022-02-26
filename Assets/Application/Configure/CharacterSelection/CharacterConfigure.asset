@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0af119958f44c0781e32388124fc12, type: 3}
+  m_Name: CharacterConfigure
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: "\u521D\u59CB\u89D2\u8272"
+    id: 1
+    characterPrefab: {fileID: 5114172359723150861, guid: 2550c8f440f78b84cac45b6e4ecd68b2,
+      type: 3}
+    bindIDs: 020000000300000004000000
+    skillIDs: 
+    _characterInfo: "\u5E73\u5E73\u65E0\u5947\uFF0C\u4F46\u662F\u6709\u7406\u60F3"
+  - characterName: "\u5251\u58EB"
+    id: 2
+    characterPrefab: {fileID: 7576212811571943588, guid: 832c288e57cbf40459cdcc6459d50827,
+      type: 3}
+    bindIDs: 05000000
+    skillIDs: 01000000020000000300000027000000230000000400000020000000
+    _characterInfo: "\u666E\u901A\u653B\u51FB\u6709\u51E0\u7387\u51CF\u5C11\u6280\u80FD\u51B7\u5374\u65F6\u95F4"
+  - characterName: "\u5F13\u7BAD\u624B"
+    id: 3
+    characterPrefab: {fileID: 7020756831855359133, guid: 4904d4f8d51e8964fb764bfaf582352f,
+      type: 3}
+    bindIDs: 06000000
+    skillIDs: 24000000090000000a0000002100000007000000
+    _characterInfo: "\u653B\u51FB\u7269\u4F53\u4F1A\u4F7F\u653B\u901F\u53E0\u52A0"
+  - characterName: "\u9B54\u6CD5\u5E08"
+    id: 4
+    characterPrefab: {fileID: 3154253505380860191, guid: c669a31eee0832c4cb88f29b2fef0543,
+      type: 3}
+    bindIDs: 07000000
+    skillIDs: 080000000b000000220000000c000000
+    _characterInfo: "\u6280\u80FD\u6709\u51E0\u7387\u4EA7\u751F\u66B4\u51FB"
+  - characterName: "\u5927\u5251\u58EB"
+    id: 5
+    characterPrefab: {fileID: 4633652526458249639, guid: d820f6ae56427ae4b8c35b8ece2cec92,
+      type: 3}
+    bindIDs: 
+    skillIDs: 0d0000002f000000360000001100000012000000
+    _characterInfo: "\u666E\u901A\u653B\u51FB\u4E0B\u6709\u51E0\u7387\u53EC\u5524\u795E\u5723\u4E4B\u5251"
+  - characterName: "\u795E\u5C04\u624B"
+    id: 6
+    characterPrefab: {fileID: 7981254675075704622, guid: 79f63ef51f5a17e49889f28b018afe81,
+      type: 3}
+    bindIDs: 
+    skillIDs: 160000001900000037000000
+    _characterInfo: "\u5F13\u7BAD\u4F1A\u7A7F\u900F\u654C\u4EBA"
+  - characterName: "\u5143\u7D20\u6CD5\u5E08"
+    id: 7
+    characterPrefab: {fileID: 2783272016106403542, guid: fae9c583c64fdd7419855cff663d0286,
+      type: 3}
+    bindIDs: 
+    skillIDs: 0f000000100000001300000014000000
+    _characterInfo: "\u4E00\u6BB5\u65F6\u95F4\u540E\u53EC\u5524\u51B0\u9525"

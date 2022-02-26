@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7980d00cf60e74e58ab714070f91a40d, type: 3}
+  m_Name: MonsterPlant
+  m_EditorClassIdentifier: 
+  characterName: 
+  characterHP: 200
+  additiveHP: 0
+  characterLevel: 0
+  characterAttack: 10
+  additiveAttack: 0
+  characterExperience: 0
+  characterDefence: 3
+  additiveDefence: 0
+  characterCritRank: 0
+  additiveCritRank: 0
+  characterCritMultiple: 0
+  additiveCritMultiple: 0
+  characterDodge: 0
+  additiveDodge: 0
+  characterMoveSpeed: 40
+  additiveMoveSpeed: 0
+  characterAttachSpeed: 0.8
+  characterAddtiveAttackSpeed: 0.4

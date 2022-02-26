@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TurtleShell
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Body
+    m_Weight: 1
+  - m_Path: Body/Spine01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL01/HornLTip01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL02/HornLTip02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL03/HornLTip03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL04
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornL04/HornLTip04
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornMid01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornMid01/HornMidTip01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornMid02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornMid02/HornMidTip02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornMid03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornMid03/HornMidTip03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR01/HornRTip01
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR02/HornRTip02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR03/HornRTip03
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR04
+    m_Weight: 1
+  - m_Path: Body/Spine01/Shell/HornR04/HornRTip04
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/BottomCover
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/Eyeball
+    m_Weight: 1
+  - m_Path: Body/Spine01/Spine02/Head/UpperCover
+    m_Weight: 1
+  - m_Path: TurtleShell
+    m_Weight: 1

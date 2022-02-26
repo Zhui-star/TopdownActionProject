@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30cdb4c6fd7882448a70439eff2a9788, type: 3}
+  m_Name: LevelUnitConfigure_test
+  m_EditorClassIdentifier: 
+  LevelUnitList:
+  - scenesName: Mneue
+    index: 0
+    nextIndexs: 
+    beforeIndex: 0
+    levelStrenth: 0
+  - scenesName: 99-1-Lobby
+    index: 2
+    nextIndexs: 03000000
+    beforeIndex: 0
+    levelStrenth: 0
+  - scenesName: 99-1-1
+    index: 3
+    nextIndexs: 04000000
+    beforeIndex: 0
+    levelStrenth: 5
+  - scenesName: 99-1-2
+    index: 4
+    nextIndexs: 05000000
+    beforeIndex: 0
+    levelStrenth: 0
+  - scenesName: 99-1-3
+    index: 5
+    nextIndexs: 06000000
+    beforeIndex: 0
+    levelStrenth: 15
+  - scenesName: 99-1-4
+    index: 6
+    nextIndexs: 07000000
+    beforeIndex: 0
+    levelStrenth: 0
+  - scenesName: 99-1-5
+    index: 7
+    nextIndexs: 08000000
+    beforeIndex: 0
+    levelStrenth: 15
+  - scenesName: 99-1-6
+    index: 8
+    nextIndexs: 09000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 99-1-7
+    index: 9
+    nextIndexs: 00000000
+    beforeIndex: 0
+    levelStrenth: 25

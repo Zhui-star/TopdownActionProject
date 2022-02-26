@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30cdb4c6fd7882448a70439eff2a9788, type: 3}
+  m_Name: LevelUnitConfigure
+  m_EditorClassIdentifier: 
+  LevelUnitList:
+  - scenesName: Mneue
+    index: 0
+    nextIndexs: 
+    beforeIndex: 0
+    levelStrenth: 0
+  - scenesName: 0-1
+    index: 2
+    nextIndexs: 03000000
+    beforeIndex: 0
+    levelStrenth: 1
+  - scenesName: 0-2
+    index: 3
+    nextIndexs: 04000000
+    beforeIndex: 0
+    levelStrenth: 2
+  - scenesName: 0-3
+    index: 4
+    nextIndexs: 05000000
+    beforeIndex: 0
+    levelStrenth: 3
+  - scenesName: 0-4
+    index: 5
+    nextIndexs: 06000000
+    beforeIndex: 0
+    levelStrenth: 4
+  - scenesName: 1-Lobby
+    index: 6
+    nextIndexs: 0700000008000000
+    beforeIndex: 0
+    levelStrenth: 0
+  - scenesName: 1-1-1
+    index: 7
+    nextIndexs: 090000000a000000
+    beforeIndex: 0
+    levelStrenth: 5
+  - scenesName: 1-1-2
+    index: 8
+    nextIndexs: 090000000a000000
+    beforeIndex: 0
+    levelStrenth: 5
+  - scenesName: 1-2-1
+    index: 9
+    nextIndexs: 0b0000000c000000
+    beforeIndex: 0
+    levelStrenth: 10
+  - scenesName: 1-2-2
+    index: 10
+    nextIndexs: 0b0000000c000000
+    beforeIndex: 0
+    levelStrenth: 10
+  - scenesName: 1-3-1
+    index: 11
+    nextIndexs: 0d000000
+    beforeIndex: 0
+    levelStrenth: 15
+  - scenesName: 1-3-2
+    index: 12
+    nextIndexs: 0d000000
+    beforeIndex: 0
+    levelStrenth: 15
+  - scenesName: 1-4-1
+    index: 13
+    nextIndexs: 0e0000000f000000
+    beforeIndex: 0
+    levelStrenth: 0
+  - scenesName: 1-5-1
+    index: 14
+    nextIndexs: 1000000011000000
+    beforeIndex: 0
+    levelStrenth: 15
+  - scenesName: 1-5-2
+    index: 15
+    nextIndexs: 1000000011000000
+    beforeIndex: 0
+    levelStrenth: 15
+  - scenesName: 1-6-1
+    index: 16
+    nextIndexs: 12000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 1-6-2
+    index: 17
+    nextIndexs: 12000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 1-7-1
+    index: 18
+    nextIndexs: 13000000
+    beforeIndex: 0
+    levelStrenth: 25
+  - scenesName: 1-8-1
+    index: 19
+    nextIndexs: 14000000
+    beforeIndex: 0
+    levelStrenth: 28
+  - scenesName: 1-9-1
+    index: 20
+    nextIndexs: 15000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 1-10-1
+    index: 21
+    nextIndexs: 16000000
+    beforeIndex: 0
+    levelStrenth: 25
+  - scenesName: 1-11-1
+    index: 22
+    nextIndexs: 17000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 1-12-1
+    index: 23
+    nextIndexs: 18000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 1-13-1
+    index: 24
+    nextIndexs: 19000000
+    beforeIndex: 0
+    levelStrenth: 25
+  - scenesName: 1-14-1
+    index: 25
+    nextIndexs: 1a000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 1-15-1
+    index: 26
+    nextIndexs: 1b000000
+    beforeIndex: 0
+    levelStrenth: 20
+  - scenesName: 1-16-1
+    index: 27
+    nextIndexs: 00000000
+    beforeIndex: 0
+    levelStrenth: 30
